@@ -1,0 +1,10 @@
+.ContentContainer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 40px 0;
+}
+
+.Content {
+  /*background-color: rgba(229,195,158,0.9);*/
+  padding: 40px 25px;
+}

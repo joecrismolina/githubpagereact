@@ -1,0 +1,10 @@
+.ContentMain {
+  background-color: #C3CED0;
+  padding: 30px 15%;
+}
+
+@media (max-width: 499px) {
+  .ContentMain {
+    padding: 30px 0;
+  }
+}

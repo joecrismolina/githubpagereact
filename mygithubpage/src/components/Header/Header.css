@@ -1,0 +1,102 @@
+.HeaderGroup {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: stretch;
+  background-color: #1B346C;
+  padding: 0px 20px; 
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.HeaderGroup h1 {
+  font-family: inherit;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: white;
+}
+
+.DrawerToggle {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.DrawerToggle div {
+    width: 90%;
+    height: 2px;
+    margin: 2px;
+    background-color: white;
+}
+
+.NavItems {
+  align-self: flex-end;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.NavItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  border-bottom: 2px solid #1B346C;
+  box-sizing: border-box;
+}
+
+.NavItem:hover {
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.4);
+  border-bottom: 2px solid white;
+}
+
+.NavItem ion-icon {
+  color: white;
+  font-size: 1.2em;
+  margin-right: 5px;
+}
+
+.NavItem p {
+  color: white;
+  font-size: 0.8em;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.HomeIcon {
+  text-align: center;
+}
+
+.HomeIcon a {
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 499px) {
+  .NavItems {
+    display: none;
+  }
+
+  .HomeIcon {
+    display: none;
+  }
+
+  .EmptyDiv {
+    display: none;
+  }
+}
+
+@media (min-width: 500px) {
+    .DrawerToggle {
+        display: none;
+    }
+}

@@ -1,0 +1,90 @@
+.Footer {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #01ABE9;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.FooterNav {
+  width: 40%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.LinkWidget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.LinkWidget:hover {
+  cursor: pointer;
+  background-color: rgba(195,195,195,0.5)
+}
+
+.LinkWidget a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.LinkWidget ion-icon {
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.LinkWidget img {
+  width: 30px;
+  height: 30px;
+}
+
+.LinkWidget p {
+  color: white;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: 500;
+  margin: 3px 0;
+}
+
+.FooterTechList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+
+.FooterNotes {
+  text-align: center;
+  color: white;
+  font-family: inherit;
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+.Footer p {
+  color: white;
+  font-family: 1.0em;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (max-width: 499px) {
+  .FooterNav {
+    width: 90%;
+  }
+
+  .FooterTechList {
+    width: 90%;
+  }
+}

@@ -1,0 +1,44 @@
+.Header {
+  color: white;
+  font-family: inherit;
+  font-size: 2.0em;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.Body p {
+  color: white;
+  font-family: inherit;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 5px;
+}
+
+.SubBody p {
+  color: white;
+  font-family: inherit;
+  font-size: 1.0em;
+  font-weight: 400;
+  margin: 3px;
+}
+
+.SubBody a {
+  text-decoration: none;
+  color: #cfcfcf;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.SubBody a:hover {
+  background-color: rgba(255,255,255,0.4); 
+}
+
+.FootNote {
+  color: #efefef;
+  font-family: sans-serif;
+  font-size: 0.8em;
+  font-weight: 300;
+  font-style: italic;
+  margin-top: 40px;
+  text-align: right;
+}
